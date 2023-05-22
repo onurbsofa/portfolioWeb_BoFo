@@ -4,7 +4,9 @@
   "description": "portfolio web BoFo",
   "main": "app.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -13,10 +15,11 @@
   "author": "BoFo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/onurbsofa/portfolioWeb_BoFo/issues"
+    "url": "https://github.com/onurbsofa/portfolioWeb_Bofo/issues"
   },
-  "homepage": "https://github.com/onurbsofa/portfolioWeb_BoFo#readme",
+  "homepage": "https://github.com/onurbsofa/portfolioWeb_Bofo",
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "gh-pages": "^5.0.0"
   }
 }
