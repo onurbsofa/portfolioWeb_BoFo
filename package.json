@@ -1,0 +1,23 @@
+{
+  "name": "portfolioweb_bofo",
+  "version": "1.0.0",
+  "description": "portfolio web BoFo",
+  "main": "app.js",
+  "scripts": {
+    "deploy":"gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onurbsofa/portfolioWeb_BoFo.git"
+  },
+  "author": "BoFo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onurbsofa/portfolioWeb_Bofo/issues"
+  },
+  "homepage": "https://github.com/onurbsofa/portfolioWeb_Bofo",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "gh-pages": "^5.0.0"
+  }
+}
