@@ -1,0 +1,22 @@
+{
+  "name": "portfolioweb_bofo",
+  "version": "1.0.0",
+  "description": "portfolio web BoFo",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onurbsofa/portfolioWeb_BoFo.git"
+  },
+  "author": "BoFo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onurbsofa/portfolioWeb_BoFo/issues"
+  },
+  "homepage": "https://github.com/onurbsofa/portfolioWeb_BoFo#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
