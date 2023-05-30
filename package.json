@@ -4,9 +4,7 @@
   "description": "portfolio web BoFo",
   "main": "app.js",
   "scripts": {
-    "test": "start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy":"gh-pages -d ."
   },
   "repository": {
     "type": "git",
