@@ -139,7 +139,7 @@ header div nav ol ul a:after {
   content: "";
   width: 0;
   height: 4px;
-  background-color: #003C8D;
+  background-color: #003c8d;
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -175,7 +175,7 @@ header div nav ol ul a button {
 }
 
 header div nav ol ul a button:hover {
-  background-color: #003C8D;
+  background-color: #003c8d;
 }
 
 .lightDarkBtn {
@@ -224,7 +224,7 @@ header div nav ol ul a button:hover {
 .Mi-info-div_h2_span {
   display: flex;
   flex-direction: row;
-  color: #003C8D;
+  color: #003c8d;
   margin: 0;
   padding: 0;
   transition: 1s ease;
@@ -369,7 +369,7 @@ header div nav ol ul a button:hover {
   border: none;
   text-decoration: none;
 
-  background: #003C8D;
+  background: #003c8d;
   color: white;
   border-radius: 100px;
 
@@ -377,7 +377,7 @@ header div nav ol ul a button:hover {
 }
 
 .My-Experiencies-DivBtn_Btn:hover {
-  background: #003C8D;
+  background: #003c8d;
 }
 
 .My-Experiencies_Works {
@@ -560,19 +560,31 @@ footer {
   }
 
   .elem_menu {
-    display: none;
+    display: block;
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
+    background: #003c8d;
+    width: 50%;
     height: 100vh;
-    width: 45%;
-    background-color: #003C8D;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 30px;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
   }
 
-  .active{
-    display:flex
+  .elem_menu.active {
+    transform: translateX(-20px)
+  }
+
+  .elem_menu ol ul a{
+    font-size: 20px;
+    padding: 10px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    
   }
 
   .elem_menu > ol {
@@ -720,4 +732,14 @@ footer {
   .footer_divSocialMedia {
     margin: 60px;
   }
+
+  .elem_menu ol ul a{
+    font-size: 14px;
+    padding: 5px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    
+  }
+
 }
